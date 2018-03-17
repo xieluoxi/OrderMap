@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhuandian.map.FeedBackActivity">
+
+    <EditText
+        android:hint="Please give your valuable comments or Suggestions..."
+        android:textSize="15sp"
+        android:gravity="start"
+        android:paddingTop="45dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/tv_commit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Commit"
+        android:textColor="#fff" />
+</RelativeLayout>
